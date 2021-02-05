@@ -1,0 +1,22 @@
+.popup-button {
+  color: black;
+  padding: 5px 10px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 4px;
+  font-weight: bold;
+}
+
+.popup-button:focus,
+.popup-button:active,
+.popup-button.active,
+.popup-button:hover,
+.popup-button[aria-controls="demo-popup-popover"] {
+  cursor: pointer;
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
+
+.popup-button:not(.all) {
+  margin-right: 5px;
+}

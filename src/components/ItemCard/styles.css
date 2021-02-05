@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+* {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 1rem;
+  padding: 5px;
+  position: relative;
+  width: 350px;
+  box-shadow: 0 14px 28px rgba(128, 128, 128, 0.25),
+    0 10px 10px rgba(128, 128, 128, 0.25);
+}
+
+.card-image {
+  object-fit: cover;
+  width: 350px;
+  height: 200px;
+}
+
+.card-logo {
+  vertical-align: middle;
+  background-size: cover;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin-top: -50px;
+  border: 2px solid #e0e0e0;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.name {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.location {
+  color: rgb(56, 56, 56);
+  margin: 10px 0 10px 0;
+  font-size: 16px;
+}
+
+.card-subcategories {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2px;
+}
+
+.card-subcategory {
+  font-size: 13px;
+  color: #aaa;
+  padding: 5px;
+  border: 1.5px solid #aaa;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.card-subcategory:not(:last-child) {
+  margin-right: 5px;
+}
+
+.counts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.icon {
+  padding: 0 5px 0 5px;
+}
+
+hr.css-baseline {
+  border-top: 1px solid rgb(238, 238, 238);
+}
